@@ -3,7 +3,6 @@ import { defineProps,defineEmits } from 'vue';
 const props = defineProps(["questions", "questionsAnswered"])
 
 const emit=defineEmits(["question-answered"])
-
    const selectAnswer=(is_correct)=> {
       emit("question-answered", is_correct);
     }
