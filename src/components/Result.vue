@@ -17,8 +17,6 @@ const props = defineProps(['results', 'totalCorrect'])
   
 </script>
 
-
-
 <template>
   <div class="result">
     <div class="title">{{ results[resultIndex].title }}</div>
