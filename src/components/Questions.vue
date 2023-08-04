@@ -9,7 +9,6 @@ const emit=defineEmits(["question-answered"])
     }
 </script>
 
-
 <template>
   <div class="questions-ctr">
     <div class="progress">
