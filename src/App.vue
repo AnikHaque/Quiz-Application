@@ -95,8 +95,6 @@ let results=reactive([
       totalCorrect.value = 0;
     }
   
-
-
 </script>
 
 <template>
