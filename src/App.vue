@@ -81,7 +81,6 @@ let results=reactive([
           desc: "Studying has definitely paid off for you!",
         },
       ])
- 
   
   let  questionAnswered=(is_correct) =>{
       if (is_correct) {
