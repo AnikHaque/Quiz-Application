@@ -2,7 +2,6 @@
 import { ref,reactive } from "vue";
 import Questions from "./components/Questions.vue"
 import Result from "./components/Result.vue";
- 
 
 let questionsAnswered = ref(0);
 let totalCorrect = ref(0);
