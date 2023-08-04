@@ -3,9 +3,6 @@ import { defineProps,computed } from 'vue';
 
 const props = defineProps(['results', 'totalCorrect'])
 
-
-
-  
   let  resultIndex=computed(()=> {
       let index = 0;
 
