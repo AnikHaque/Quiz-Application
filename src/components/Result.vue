@@ -15,7 +15,6 @@ const props = defineProps(['results', 'totalCorrect'])
       return index;
     })
   
-
 </script>
 
 
