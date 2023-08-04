@@ -121,5 +121,4 @@ let results=reactive([
 </template>
 
 <style scoped>
-
 </style>
