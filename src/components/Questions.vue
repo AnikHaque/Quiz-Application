@@ -7,8 +7,6 @@ const emit=defineEmits(["question-answered"])
    const selectAnswer=(is_correct)=> {
       emit("question-answered", is_correct);
     }
-  
-
 </script>
 
 
